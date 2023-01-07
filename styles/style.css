@@ -13,7 +13,7 @@
 }
 .banner-container{
     padding-right: 150px;
-    padding-top: 150px;
+    padding-top: 150px; 
 }
 .contact-button{
     color: white;
@@ -44,8 +44,7 @@ section{
 .failures-year{
     display: flex;
     align-items: center;
-    gap: 30px; 
-      
+    gap: 30px;       
 }
 .confused-girl img{
     width: 300px;
@@ -74,8 +73,7 @@ section{
     font-size: 10px;    
 }
 /* my new year mission styles */
-.mission-container{
-    
+.mission-container{    
     height: 300px;
 }
 .missions{
@@ -83,8 +81,8 @@ section{
     gap: 10px;
 }
 .missions img{
-    width: 50px;
-    border-radius: 10px;
+    width: 70px;
+    border-radius: 50%;
 }
 .mission{
     background-color: #FFF4D6;    
@@ -157,8 +155,7 @@ section{
     background-color: #151414;
     height: 280px;
     padding: 0px 150px;
-    justify-content: space-between;
-    /* align-items: center; */
+    justify-content: space-between;    
     display: flex;
 }
 .future h1{
@@ -167,7 +164,7 @@ section{
     color: white;
 }
 .future p{
-    font-size: 8px;
+    font-size: 10px;
     color: white;   
     padding-top: 10px;
 }
