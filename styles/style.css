@@ -3,6 +3,43 @@
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.main-container{
+    height: 100vh;
+    width: 100%;
+    text-align: right;    
+    background-image: url('../images/banner/banner1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main{
+    padding-right: 150px;
+    padding-top: 150px;
+}
+.contact-button{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #F15B22;
+}
+/* .banner-content{    
+    text-align: right;
+    margin-top: -350px;
+    padding-right: 120px;
+} */
+.banner-title{
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 10px;
+    
+}
 /* banner section styles */
 
 /* .banner img{
@@ -38,7 +75,7 @@
 } */
 /* main parts starts here */
 section{
-    margin: 30px 150px;
+    margin: 40px 150px;
 }
 .previous-year{
     display: flex;
@@ -51,17 +88,20 @@ section{
 }
 .title{
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: #151414;
 }
-.detail-description{  
-    color: #444343;
+.detail-description{ 
+    margin-bottom: 10px; 
+    /* color: #444343; */
+    color: #757575;
     font-size: 10px;
     
 }
 .popular{
     display: flex;
-    gap: 10px;
+    gap: 5px;
+    align-items: center;
 }
 .correct{
     width: 20px;
@@ -69,7 +109,98 @@ section{
     
 }
 .correct-des{  
-    color: #444343;
+    color: #757575;
     font-size: 10px;
     
+}
+/* my plan container */
+/* .plan-container{
+    height: 00px;
+    background-color: blue;
+} */
+.plan{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.total-courses{
+    display: flex;
+    gap: 40px;
+}
+.total-courses img{
+    width: 50px;
+}
+.course{
+    text-align: center;
+    
+}
+.course h1{
+    font-size: 17px;
+    padding: 10px 0px;
+}
+.course p{
+    color: #757575;
+}
+/* communication styles here */
+.communication-container{
+    height: 170px;
+    /* width: 100%; */
+    background-image: url('../images/gradient2.png'), url(../images/watch.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
+}
+.communicate h1{
+    color: white;
+    font-size: 18px;
+}
+.call-button{
+    color: #F15B22;
+    font-weight: 700;
+    font-size: 10x;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: white;
+}
+.communicate{    
+    padding: 33px 0px;
+    padding-left: 30px;
+}
+/* footer */
+.footer-container{
+    background-color: #151414;
+    height: 280px;
+    padding: 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.future h1{
+    font-size: 25px;
+    color: white;
+}
+.future p{
+    font-size: 8px;
+    color: white;
+    padding: 10px 0px;
+    
+}
+.social-icons img{
+    width: 25px;
+}
+.subscribe h1{
+    font-size: 20px;
+    color: white;
+}
+.contact-mail{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 900;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #151414;
 }
