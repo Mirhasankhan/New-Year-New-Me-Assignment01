@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* banner section styles */
+
+/* .banner img{
+    height: 450px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.banner-content{
+    
+    text-align: right;
+    margin-top: -350px;
+    padding-right: 120px;
+}
+.banner-title{
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 10px;
+    
+}
+.contact-button{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #F15B22;
+} */
+/* main parts starts here */
+section{
+    margin: 30px 150px;
+}
+.previous-year{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* background-color: antiquewhite; */
+}
+.thinking-girl img{
+    width: 300px;
+}
+.title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #151414;
+}
+.detail-description{  
+    color: #444343;
+    font-size: 10px;
+    
+}
+.popular{
+    display: flex;
+    gap: 10px;
+}
+.correct{
+    width: 20px;
+    margin-bottom: 5px;
+    
+}
+.correct-des{  
+    color: #444343;
+    font-size: 10px;
+    
+}
