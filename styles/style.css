@@ -8,7 +8,7 @@
     width: 100%;
     text-align: right;    
     background-image: url('../images/banner/banner1.png');
-    background-size: contain;
+    background-size: contain;    
     background-repeat: no-repeat;
 }
 .main{
@@ -25,34 +25,7 @@
     margin-top: 15px;
     background-color: #F15B22;
 }
-/* .banner-content{    
-    text-align: right;
-    margin-top: -350px;
-    padding-right: 120px;
-} */
-.banner-title{
-    font-weight: 900;
-    font-size: 35px;
-    padding-bottom: 10px;
-}
-.banner-description{
-    color: #757575;
-    font-size: 10px;
-    
-}
-/* banner section styles */
 
-/* .banner img{
-    height: 450px;
-    width: 100%;
-    margin-bottom: 20px;
-}
-.banner-content{
-    
-    text-align: right;
-    margin-top: -350px;
-    padding-right: 120px;
-}
 .banner-title{
     font-weight: 900;
     font-size: 35px;
@@ -60,78 +33,61 @@
 }
 .banner-description{
     color: #757575;
-    font-size: 10px;
-    
+    font-size: 10px;    
 }
-.contact-button{
-    color: white;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 15px;
-    background-color: #F15B22;
-} */
+
+
 /* main parts starts here */
 section{
-    margin: 40px 150px;
+    margin: 50px 150px;
 }
-.previous-year{
+.failures-year{
     display: flex;
     align-items: center;
-    gap: 30px;
-    /* background-color: antiquewhite; */
+    gap: 30px; 
+      
 }
-.thinking-girl img{
+.confused-girl img{
     width: 300px;
 }
-.title{
-    font-size: 25px;
+.detail-title{
+    font-size: 20px;
     margin-bottom: 15px;
     color: #151414;
 }
 .detail-description{ 
-    margin-bottom: 10px; 
-    /* color: #444343; */
+    margin-bottom: 10px;    
     color: #757575;
-    font-size: 10px;
-    
+    font-size: 10px;    
 }
-.popular{
+.detail-list{
     display: flex;
     gap: 5px;
     align-items: center;
 }
 .correct{
-    width: 20px;
-    margin-bottom: 5px;
-    
+    width: 20px; 
+    color: green;     
 }
-.correct-des{  
+.my-faults{  
     color: #757575;
-    font-size: 10px;
-    
+    font-size: 10px;    
 }
+
 /* my plan container */
-/* .plan-container{
-    height: 00px;
-    background-color: blue;
-} */
 .plan{
     text-align: center;
     margin-bottom: 30px;
 }
 .total-courses{
     display: flex;
-    gap: 40px;
+    gap: 42px;
 }
 .total-courses img{
     width: 50px;
 }
 .course{
-    text-align: center;
-    
+    text-align: center;    
 }
 .course h1{
     font-size: 17px;
@@ -140,20 +96,19 @@ section{
 .course p{
     color: #757575;
 }
+
 /* communication styles here */
 .communication-container{
-    height: 170px;
-    /* width: 100%; */
+    height: 170px;    
     background-image: url('../images/gradient2.png'), url(../images/watch.png);
-    background-repeat: no-repeat;
-    /* background-size: contain; */
+    background-repeat: no-repeat;    
     background-size: cover;
 }
 .communicate h1{
     color: white;
     font-size: 18px;
 }
-.call-button{
+.primary-button{
     color: #F15B22;
     font-weight: 700;
     font-size: 10x;
@@ -173,23 +128,25 @@ section{
     height: 280px;
     padding: 0px 150px;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     display: flex;
 }
 .future h1{
+    padding-top: 60px;
     font-size: 25px;
     color: white;
 }
 .future p{
     font-size: 8px;
-    color: white;
-    padding: 10px 0px;
-    
+    color: white;   
+    padding-top: 10px;
 }
 .social-icons img{
     width: 25px;
+    padding-top: 10px;
 }
 .subscribe h1{
+    padding-top: 60px;
     font-size: 20px;
     color: white;
 }
